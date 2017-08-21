@@ -33,12 +33,7 @@ import android.widget.TextView;
  * к аутентификации, а просто предоставляет лист с выбором Activity, в которых
  * уже имплементирована соответствующая аутентификацияЮ
  *     {@link GoogleSignInActivity}
- *     {@link FacebookLoginActivity}
- *     {@link TwitterLoginActivity}
  *     {@link EmailPasswordActivity}
- *     {@link PhoneAuthActivity}
- *     {@link AnonymousAuthActivity}
- *     {@link CustomAuthActivity}
  */
 public class ChooserActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
